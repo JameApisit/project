@@ -19,7 +19,7 @@ class RudyController extends AbstractActionController
       //return new ViewModel(); //เรียกหน้า view ตามที่ config ใน module.config.php
     }
 
-    public function searchstringAction(){
+    public function findingvalueAction(){
 
       $number=3;
       $math=2;
@@ -73,7 +73,7 @@ class RudyController extends AbstractActionController
 
                           ]);
       }
-
+      
       echo json_encode($array,true);
       exit();
     }
